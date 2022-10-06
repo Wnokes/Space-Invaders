@@ -6,6 +6,7 @@ public class AlienShip : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Destroy(this.gameObject);
+        if(collision.gameObject.CompareTag("Bullet"))
+            Destroy(this.gameObject);
     }
 }

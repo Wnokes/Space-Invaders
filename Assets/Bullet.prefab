@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 8404468149610511379}
   - component: {fileID: 8404468149610511380}
   - component: {fileID: 8404468149610511381}
-  - component: {fileID: -5717845492627961106}
+  - component: {fileID: -955865269506797308}
   m_Layer: 0
   m_Name: Bullet
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -116,7 +116,7 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 2}
   m_Direction: 0
---- !u!50 &-5717845492627961106
+--- !u!50 &-955865269506797308
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0

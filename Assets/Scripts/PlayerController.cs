@@ -25,4 +25,12 @@ public class PlayerController : MonoBehaviour
             countdown -= .01f;
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Deadly"))
+        {
+            Destroy(this.gameObject);
+        }
+    }
 }
